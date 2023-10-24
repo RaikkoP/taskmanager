@@ -4,10 +4,18 @@
 }
 .formButton {
     width: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+.formButton:hover {
+    transform: scale(1.1) perspective(1px);
 }
 .registerButton {
     margin-bottom: 1em;
     padding: 0.75rem;
     padding-left: 3.2em;
     padding-right: 3.1em;
+    transition: transform 0.3s ease-in-out;
+}
+.registerButton:hover {
+    transform: scale(1.1);
 }
