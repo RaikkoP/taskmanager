@@ -1,0 +1,13 @@
+.formInput {
+    width: 50%;
+    border: 1px solid black;
+}
+.formButton {
+    width: 50%;
+}
+.registerButton {
+    margin-bottom: 1em;
+    padding: 0.75rem;
+    padding-left: 3.2em;
+    padding-right: 3.1em;
+}
