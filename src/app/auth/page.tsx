@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from '../styles/auth.module.css';
 
 
@@ -15,8 +16,8 @@ export default function Auth() {
                 </div>
                 <div>
                     <div className=" flex justify-center">
-                        <button className={styles.authenticationButton}>Login</button>
-                        <button className={styles.authenticationButton}>Register</button>
+                        <Link href="/auth/login"><button type="button" className={styles.authenticationButton}>Login</button></Link>
+                        <Link href="/auth/register"><button type="button" className={styles.authenticationButton}>Register</button></Link>
                     </div>
                     <div className="mt-8 text-center underline">
                         <a><p>Continue as Guest</p></a>
